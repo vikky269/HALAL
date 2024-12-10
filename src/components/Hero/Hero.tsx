@@ -102,7 +102,7 @@ const Hero: React.FC = () => {
 
         <div className="flex items-center justify-center space-x-4 mt-5 cursor-pointer">
           {heroimg.map((heroimg, index) => (
-            <div className="flex flex-row justify-center items-center ">
+            <div className="flex flex-row justify-center items-center">
               <img src={heroimg.url} alt="" key={index} className="w-[100%] h-[400px]" />
             </div>
           ))}
