@@ -3,7 +3,7 @@ import FeaturesSection from './Features'
 
 const EthicalBanking:React.FC = () => {
   return (
-    <section className='mt-4 flex flex-col justify-center items-center font-title'>
+    <section className='mt-4 flex p-6 flex-col justify-center items-center font-title'>
 
           <div className="text-center flex flex-wrap">
               <span className="text-[#003780] text-xl md:text-5xl font-semibold mt-8">
