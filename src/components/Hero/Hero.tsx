@@ -73,10 +73,10 @@ const Hero: React.FC = () => {
 
         <div className="bg-[#0066f4] w-full h-[75px] absolute top-[45%] hidden md:block">
           <div className="flex justify-center items-center h-full">
-            <div className="flex flex-wrap text-white text-2xl sm:text-lg font-normal space-x-4 lg:space-x-12">
+            <div className="flex text-white space-x-4 lg:space-x-12">
               {stats.map((stat, index) => (
                 <React.Fragment key={index}>
-                  <span>{stat}</span>
+                  <span className="text-md sm:text-lg font-normal">{stat}</span>
                   {index !== stats.length - 1 && (
                     <span className="font-bold md:text-lg lg:text-xl">•</span>
                   )}
