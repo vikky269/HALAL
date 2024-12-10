@@ -12,9 +12,9 @@ function App() {
     <>
     <Navbar />
     <Hero />
-    <EthicalBanking />
+    {/* <EthicalBanking />
     <Community />
-    <Stats />
+    <Stats /> */}
     </>
   )
 }
