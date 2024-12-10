@@ -2,7 +2,7 @@ import React from 'react'
 
 const Stats:React.FC = () => {
   return (
-    <section className='mt-12 bg-gradient-to-b from-[#EFF4FF] to-[#FFFFFF] flex flex-col items-center justify-center gap-4 font-title p-6'>
+    <section className='mt-12 bg-gradient-to-b from-[#EFF4FF] to-[#FFFFFF] flex flex-col items-center justify-center gap-4 font-title p-6 overflow-x-hidden'>
         {/**first item */}
        <div className='flex justify-between space-x-14 items-center'>
          <div className='flex flex-col gap-4 items-start'>
