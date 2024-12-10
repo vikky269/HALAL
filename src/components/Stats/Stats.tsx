@@ -20,9 +20,9 @@ const Stats:React.FC = () => {
        {/**second item */}
 
           <div className='flex mt-6 items-center justify-center'>
-              <img src="/Frame 24.png" alt=""  className=' w-[370px]' />
-              <img src="/Frame 22.png" alt=""  className=' w-[370px]' />
-              <img src="/Frame 23.png" alt=""  className=' w-[370px]' />
+              <img src="/Frame 24.png" alt=""  className=' md:w-[370px]' />
+              <img src="/Frame 22.png" alt=""  className=' md:w-[370px]' />
+              <img src="/Frame 23.png" alt=""  className=' md:w-[370px]' />
           </div>
     </section>
   )
