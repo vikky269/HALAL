@@ -76,7 +76,7 @@ const Hero: React.FC = () => {
             <div className="flex text-white space-x-4 lg:space-x-12">
               {stats.map((stat, index) => (
                 <React.Fragment key={index}>
-                  <span className="text-lg font-normal">{stat}</span>
+                  <span className="lg:text-lg text-[14px] font-normal">{stat}</span>
                   {index !== stats.length - 1 && (
                     <span className="font-bold md:text-lg lg:text-xl">•</span>
                   )}
