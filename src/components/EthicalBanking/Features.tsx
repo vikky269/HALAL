@@ -13,10 +13,10 @@ const FeaturesSection: React.FC = () => {
   ];
 
   return (
-    <div className="bg-white py-10 px-4 font-title">
+    <div className="bg-white py-10 px-4 font-title ">
       <div className="max-w-7xl mx-auto flex flex-col gap-6 cursor-pointer">
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
+        <div className="grid items-center justify-center grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {features.map((feature, index) => (
             <div
               key={index}

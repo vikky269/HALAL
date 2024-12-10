@@ -29,9 +29,9 @@ const Hero: React.FC = () => {
 
         {/** Desktop layout */}
 
-        <div className="container flex justify-between items-center mx-auto px-4 py-3 ">
+        <div className="flex justify-between items-center mx-auto px-4 py-3">
 
-          <div className="text-center flex flex-col items-start mb-8">
+          <div className="text-center flex flex-col items-start mb-8 p-4">
             <h1 className="md:text-6xl font-bold text-[#0066f4] rounded-sm py-3 px-4 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
               A BANK FOR
             </h1>
