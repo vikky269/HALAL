@@ -16,8 +16,8 @@ const Community:React.FC = () => {
        </div>
 
 
-       <div className='border border-black border-opacity-5 space-x-6 mt-6  flex justify-center items-center py-10 px-6 rounded-xl cursor-pointer'>
-         <span className='text-white bg-[#0066F4] font-semi-bold px-8 py-4 rounded-full'>Agents</span>
+       <div className='border border-black border-opacity-5 md:space-x-20 mt-16  w-[80%] flex justify-center items-center py-10 px-6 rounded-xl cursor-pointer'>
+         <span className='text-white bg-[#0066F4] font-semibold px-8 py-4 rounded-full'>Agents</span>
          
           {community.map((community,index)=> (
             <span className='text-[#808A9A] hover:text-white hover:bg-[#0066F4] hover:font-semibold font-normal border border-black border-opacity-5 px-8 py-4 rounded-full' key={index}>{community}</span>

@@ -54,7 +54,7 @@ const Hero: React.FC = () => {
               </a>
             </div>
 
-            <span className="italic text-sm text-[#444449] mt-3">Licensed by CBN and Secured by NDIC </span>
+            <span className="italic text-sm text-[#444449] mt-3">Licensed by CBN and Secured by NDIC</span>
           </div>
 
           {/* User and App Buttons */}
@@ -65,11 +65,13 @@ const Hero: React.FC = () => {
               className="h-[63%]"
             />
           </div>
+
+
         </div>
 
         {/** divider stats */}
 
-        <div className="bg-[#0066f4] w-full h-[75px] absolute top-[47%] hidden md:block">
+        <div className="bg-[#0066f4] w-full h-[75px] absolute top-[45%] hidden md:block">
           <div className="flex justify-center items-center h-full">
             <div className="flex flex-wrap text-white text-2xl sm:text-lg font-normal space-x-12">
               {stats.map((stat, index) => (
@@ -98,7 +100,7 @@ const Hero: React.FC = () => {
 
         {/** picture grid */}
 
-        <div className="px-3 flex items-center justify-center space-x-4 mt-5 cursor-pointer">
+        <div className="flex items-center justify-center space-x-4 mt-5 cursor-pointer">
           {heroimg.map((heroimg, index) => (
             <div className="flex flex-row justify-center items-center ">
               <img src={heroimg.url} alt="" key={index} className="w-[100%] h-[400px]" />
