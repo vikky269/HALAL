@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
         {/** divider stats */}  
         
 
-        <div className="bg-[#0066f4] w-full h-[75px] absolute lg:top-[40%] overflow-hidden">
+        <div className="bg-[#0066f4] w-full h-[75px] absolute lg:top-[45%] overflow-hidden">
           <div className="flex items-center h-full">
             <div className="flex whitespace-nowrap animate-marquee text-white space-x-4 lg:space-x-12">
               {stats.map((stat, index) => (
