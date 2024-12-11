@@ -18,14 +18,35 @@ const EthicalBanking:React.FC = () => {
               <FeaturesSection />
           </div>
 
-          <div className='relative'>
+          {/* <div className='relative'>
               <img src="/features/Component 7.png" alt="" />
               <div className='absolute top-6'>
                   <img src="/features/Component 10.png" alt="" />
               </div>
+          </div> */}
+
+          <div className="relative overflow-hidden h-[150px] md:h-[200px]">
+              {/* First Image */}
+              <img
+                  src="/features/Component 7.png"
+                  alt=""
+                  className="animate-move-left-loop"
+              />
+
+              {/* Second Image */}
+              <div className="absolute top-6 right-0 w-full h-auto">
+                  <img
+                      src="/features/Component 10.png"
+                      alt=""
+                      className="animate-move-right-loop"
+                  />
+              </div>
           </div>
+
     </section>
   )
 }
 
 export default EthicalBanking
+
+
