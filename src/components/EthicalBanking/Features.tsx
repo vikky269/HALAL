@@ -32,11 +32,11 @@ const FeaturesSection: React.FC = () => {
           ))}
         </div>
 
-        <div className="flex gap-6 items-center justify-center mt-3">
+        <div className="flex md:flex-row flex-col gap-6 items-center justify-center mt-3">
         {features2.map((feature, index) => (
             <div
               key={index}
-              className="bg-gradient-to-b from-[#EFF4FF] to-[#FFFFFF] py-6 px-6 flex flex-col items-center justify-center gap-5 text-center border border-opacity-10 border-[#0066f4] md:h-[20rem] md:w-[30rem] lg:w-[40rem]"
+              className="bg-gradient-to-b from-[#EFF4FF] to-[#FFFFFF] py-6 px-6 flex flex-col items-center justify-center gap-5 text-center border border-opacity-10 border-[#0066f4] md:h-[20rem] md:w-[30rem] lg:w-[34rem]"
             >
             <img src={feature.icon} alt="" />
                   <div className="max-w-[12rem]">

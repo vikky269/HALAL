@@ -12,16 +12,16 @@ interface CardProps {
 const FeatureCard: React.FC<CardProps> = ({ title, description, link, imageSrc, bgColor, textColor }) => {
   return (
     <div
-      className={`font-title h-[500px] relative p-8 rounded-lg shadow-md bg-gradient-to-br ${bgColor} flex flex-col justify-between items-center md:items-start gap-3`}
+      className={`font-title lg:h-[500px] relative  p-4 lg:p-8 rounded-lg shadow-md bg-gradient-to-br ${bgColor} flex flex-col justify-between items-center md:items-start gap-3`}
     >
-      <div className="space-y-4 max-w-[72%]">
+      <div className="space-y-4 lg:max-w-[72%]">
         <h3 className={`text-2xl md:text-3xl font-bold ${textColor}`}>{title}</h3>
         <p className="text-sm md:text-base text-gray-700">{description}</p>
         <a href={link} className="text-blue-600 max-w-lg flex items-center space-x-2 font-medium">
           <span className='border-b-[#0066f4] py-2 px-2 border-2 border-t-0 border-l-0 border-r-0'>Learn more &rarr; </span>
         </a>
       </div>
-      <div className="absolute bottom-0 right-4">
+      <div className="absolute bottom-0 right-4 hidden lg:block">
         <img src={imageSrc}  />
       </div>
     </div>

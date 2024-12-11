@@ -9,7 +9,7 @@ export default {
       animation: {
         'move-left-loop': 'moveLeftLoop 5s linear infinite',
         'move-right-loop': 'moveRightLoop 5s linear infinite',
-        'marquee': 'marquee 10s linear infinite', // Add second animation here
+        'marquee': 'marquee 10s linear infinite',
       },
       keyframes: {
         moveLeftLoop: {

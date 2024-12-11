@@ -2,10 +2,10 @@ import React from "react";
 
 const Footer: React.FC = () => {
   return (
-    <footer className=" relative text-[#003780] md:pl-28 py-6 px-6 font-title mt-32">
+    <footer className=" relative text-[#003780] lg:pl-28 py-6 lg:px-6 font-title mt-32">
     
-     <img src="/Ellipse 14.png" alt="" className="absolute left-0 bottom-0 h-15" />
-     <img src="/Ellipse 13.png" alt="" className="absolute right-0 top-0 h-15 z-[-1]" />
+     <img src="/Ellipse 14.png" alt="" className="absolute left-0 bottom-0 h-15 hidden lg:block" />
+     <img src="/Ellipse 13.png" alt="" className="absolute right-0 top-0 h-15 z-[-1] hidden lg:block" />
       {/* Container */}
       <div className="max-w-[1440px] mx-auto grid  gap-y-8 md:grid-cols-3 lg:grid-cols-4 px-10">
         {/* Logo and App Links */}
