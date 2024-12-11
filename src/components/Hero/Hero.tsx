@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
         <div className="flex justify-between items-center mx-auto px-6 py-3">
 
           <div className="text-center flex flex-col items-start mb-8 px-6">
-            <h1 className="md:text-6xl font-bold text-[#0066f4] rounded-sm py-3 px-4 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
+            <h1 className="text-5xl font-bold text-[#0066f4] text-center rounded-sm py-4 px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
               A BANK FOR
             </h1>
             <h1 className="text-6xl font-bold text-center rounded-sm text-white py-3 px-12 mb-6 bg-gradient-to-b from-[#0357ee] to-[#023288]">
@@ -72,7 +72,7 @@ const Hero: React.FC = () => {
         {/** divider stats */}  
         
 
-        <div className="bg-[#0066f4] w-full h-[75px] absolute top-[45%]  overflow-hidden">
+        <div className="bg-[#0066f4] w-full h-[75px] absolute lg:top-[40%] overflow-hidden">
           <div className="flex items-center h-full">
             <div className="flex whitespace-nowrap animate-marquee text-white space-x-4 lg:space-x-12">
               {stats.map((stat, index) => (
@@ -110,7 +110,7 @@ const Hero: React.FC = () => {
 
         {/** picture grid */}
 
-        <div className="flex items-center justify-center space-x-4 mt-5 cursor-pointer">
+        <div className="flex items-center justify-center space-x-4 mt-5 cursor-pointer lg:px-6">
           {heroimg.map((heroimg, index) => (
             <div className="flex flex-row justify-center items-center">
               <img src={heroimg.url} alt="" key={index} className="w-[100%] h-[400px]" />
