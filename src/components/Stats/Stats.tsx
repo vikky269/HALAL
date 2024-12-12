@@ -7,7 +7,7 @@ const Stats:React.FC = () => {
        <div className='lg:flex-row flex flex-col items-start justify-start lg:justify-between lg:space-x-14 p-3 lg:items-center'>
         
          <div className='flex flex-col space-y-2 lg:gap-4 items-start px-4'>
-           <span className='text-[#003780] text-3xl lg:text-6xl font-bold'>500K + </span>
+           <span className='text-[#003780] text-3xl lg:text-6xl font-bold pl-4 lg:pl-0'>500K + </span>
            <span className='text-white bg-[#0066F4] text-center font-semibold px-12 py-4  rounded-full'>Agents</span>
            <span className='text-[#003780] cursor-pointer mt-8 border-b-[#0066F4] border-b-2 pb-1'>Become an Agent &rarr;</span>
          </div>
@@ -51,7 +51,7 @@ const Stats:React.FC = () => {
           and your Business
         </span>
 
-        <span className='leading-loose text-[#394455] font-normal max-w-xl mt-16'>
+        <span className='leading-loose text-[#394455] text-center font-normal max-w-xl mt-16'>
           Maybe you want a trusted Banking partners for collecting payments,
           or you need an affordable Takafaful yearly dividends that would pay
           with no claims, or wanting to earn good returns on your savings?

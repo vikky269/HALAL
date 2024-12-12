@@ -6,7 +6,7 @@ const EthicalBanking:React.FC = () => {
     <section className='mt-12 flex flex-col justify-center items-center font-title'>
 
           <div className="text-center flex flex-wrap p-4">
-              <span className="text-[#003780] text-xl md:text-5xl font-semibold mt-8">
+              <span className="text-[#003780] text-3xl md:text-5xl font-semibold mt-8">
                   Ethical Banking for you&nbsp;
                   <br className="hidden md:block" />
                   and your Business

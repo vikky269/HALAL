@@ -13,17 +13,17 @@ const FeaturesSection: React.FC = () => {
   ];
 
   return (
-    <div className="bg-white py-10 px-4 font-title ">
-      <div className="max-w-7xl mx-auto flex flex-col gap-6 cursor-pointer">
+    <div className="bg-white py-10 lg:px-4 font-title ">
+      <div className="max-w-7xl mx-auto flex flex-col gap-6 cursor-pointer p-8">
 
         <div className="grid items-center justify-center grid-cols-1 md:grid-cols-3 gap-6 md:gap-8">
           {features.map((feature, index) => (
             <div
               key={index}
-              className="bg-gradient-to-b from-[#EFF4FF] to-[#FFFFFF] py-6 px-6 flex flex-col items-center text-center border border-opacity-10 border-[#0066f4] md:h-[15rem]"
+              className="bg-gradient-to-b from-[#EFF4FF]  to-[#FFFFFF] py-6 px-6 flex flex-col items-center text-center border border-opacity-10 border-[#0066f4] md:h-[15rem]"
             >
             <img src={feature.icon} alt="" />
-                  <div className="max-w-[12rem]">
+                  <div className="lg:max-w-[12rem] mt-4">
                       <h3 className="text-lg font-normal text-black">
                           {feature.title}
                       </h3>
@@ -39,8 +39,8 @@ const FeaturesSection: React.FC = () => {
               className="bg-gradient-to-b from-[#EFF4FF] to-[#FFFFFF] py-6 px-6 flex flex-col items-center justify-center gap-5 text-center border border-opacity-10 border-[#0066f4] md:h-[20rem] md:w-[30rem] lg:w-[36rem]"
             >
             <img src={feature.icon} alt="" />
-                  <div className="max-w-[12rem]">
-                      <h3 className="text-lg font-normal text-black px-12 lg:px-0">
+                  <div className="lg:max-w-[12rem] mt-4"> 
+                      <h3 className={`text-lg font-normal ${feature.title === "Interest Free" ? "px-20" : "px-16"} text-black lg:px-0 text-ellipsis`}>
                           {feature.title}
                       </h3>
                   </div>
