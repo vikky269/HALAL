@@ -32,7 +32,7 @@ const AnimatedImage = () => {
           key={images[currentIndex]} // Unique key to trigger animation on image change
           src={images[currentIndex]}
           alt={`Image ${currentIndex + 1}`}
-          className="block h-[63%] md:h-[63%] lg:max-h-[850px] object-contain border-2 border-black"
+          className="block h-[63%] md:h-[63%] lg:max-h-[850px] object-contain"
           variants={imageVariants}
           initial="enter"
           animate="center"
