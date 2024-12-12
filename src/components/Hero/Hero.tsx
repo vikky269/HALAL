@@ -35,8 +35,8 @@ const Hero: React.FC = () => {
         <div className="flex justify-between items-center mx-auto px-6 py-3">
 
           <div className="text-center flex flex-col items-start mb-8 px-6">
-            <h1 className="text-5xl font-bold text-[#0066f4] text-center rounded-sm py-4 px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
-              A BANK FOR
+            <h1 className="text-5xl lg:w-full font-bold text-[#0066f4] text-center rounded-sm py-4 px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
+              <span className="max-w-lg"> A BANK FOR</span>
             </h1>
 
             {/* <motion.h1
@@ -89,7 +89,7 @@ const Hero: React.FC = () => {
           </div>
 
           {/* User and App Buttons */}
-          
+
           {/* <div className="">
             <img
               src="/hero/akin.png"
