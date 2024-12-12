@@ -169,7 +169,7 @@ const Hero: React.FC = () => {
         </div>
 
       
-        <div className="bg-[#0066f4] w-full h-[65px] absolute top-[48%] lg:top-[45%] overflow-hidden">
+        {/* <div className="bg-[#0066f4] w-full h-[65px] absolute top-[48%] lg:top-[45%] overflow-hidden">
           <div className="flex items-center h-full">
             <div className="flex whitespace-nowrap animate-marquee text-white space-x-4 lg:space-x-12">
               {stats.map((stat, index) => (
@@ -180,7 +180,7 @@ const Hero: React.FC = () => {
                   )}
                 </React.Fragment>
               ))}
-              {/* Repeat the stats array to ensure continuous scrolling */}
+              
               {stats.map((stat, index) => (
                 <React.Fragment key={`repeat-${index}`}>
                   <span className="lg:text-lg text-[14px] font-normal">{stat}</span>
@@ -191,7 +191,7 @@ const Hero: React.FC = () => {
               ))}
             </div>
           </div>
-        </div>
+        </div> */}
 
 
         {/** hero subtext content */}
