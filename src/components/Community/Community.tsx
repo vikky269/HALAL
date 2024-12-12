@@ -10,8 +10,8 @@ const Community:React.FC = () => {
           people just like you </span>  
        </div>
 
-       <div className='text-center'>
-         <span className="leading-7 text-md text-[#394455] max-w-lg font-normal mt-12">Join a vast network of individuals who are making force for ethical 
+       <div className='text-center lg:max-w-xl px-3 bg-blue-950 py-3'>
+         <span className="leading-7 text-md lg:text-xl text-[#394455] font-normal  mt-12">Join a vast network of individuals who are making force for ethical 
           banking and enjoying the benefits of Halal community.</span>
        </div>
 
