@@ -49,9 +49,3 @@ const AnimatedDesc = () => {
 
 export default AnimatedDesc;
 
-
-//className="text-6xl relative font-bold text-center rounded-sm text-white w-full py-3 px-12 h-auto min-h-[80px] mb-6 bg-gradient-to-b from-[#0357ee] to-[#023288] flex items-center justify-center"
-
-
-
- //className="text-[#444449] mt-4 w-full text-md font-normal px-3 py-4 border-[0.2px] italic leading-4 border-black border-opacity-5 relative overflow-hidden h-[80px]"

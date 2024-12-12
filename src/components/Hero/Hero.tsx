@@ -34,9 +34,9 @@ const Hero: React.FC = () => {
 
         <div className="flex justify-between items-center mx-auto px-6 py-3">
 
-          <div className="text-center flex flex-col items-start mb-8 px-6">
-            <h1 className="text-5xl inline-block lg:w-full font-bold text-[#0066f4] text-center rounded-sm py-4 px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
-              <span className="whitespace-nowrap"> A BANK FOR</span>
+          <div className="text-center flex flex-col items-start mb-8 px-6 py-6 lg:max-h-[800px]">
+            <h1 className="text-5xl font-bold text-[#0066f4] text-center rounded-sm py-4 px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
+              A BANK FOR
             </h1>
 
             {/* <motion.h1
@@ -69,12 +69,14 @@ const Hero: React.FC = () => {
             </motion.h1> */}
 
             <AnimatedNames />
+
             {/* <p className="text-[#444449] mt-4 text-sm font-normal px-3 py-4 border-[0.2px] max-w-sm italic leading-4 border-black border-opacity-5">
               Akintayo, a 28-year-old Software Engineer, makes payments through
               HALAL.
             </p> */}
 
              <Animatedesc />
+
             {/* CTA Buttons */}
             <div className="flex justify-center space-x-4 mt-8">
               <a href="#">
@@ -96,9 +98,10 @@ const Hero: React.FC = () => {
               alt="User"
               className="h-[63%] md:h-[63%] lg:max-h-[850px] object-contain"
             />
-          </div> */}
-         
-         <AnimatedImage />
+          </div>
+          */}
+
+         <AnimatedImage  />
 
         </div>
 

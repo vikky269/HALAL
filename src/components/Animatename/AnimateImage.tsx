@@ -8,7 +8,7 @@ const AnimatedImage = () => {
     '/hero/chinyere.png',
     '/hero/chinedu.png',
     '/hero/everyone.png'
-  ]; // Array of image paths
+  ]
   const [currentIndex, setCurrentIndex] = useState(0);
 
   useEffect(() => {
@@ -32,7 +32,7 @@ const AnimatedImage = () => {
           key={images[currentIndex]} // Unique key to trigger animation on image change
           src={images[currentIndex]}
           alt={`Image ${currentIndex + 1}`}
-          className="h-[63%] md:h-[63%] lg:max-h-[850px] object-contain"
+          className="block h-[63%] md:h-[63%] lg:max-h-[850px] object-contain"
           variants={imageVariants}
           initial="enter"
           animate="center"
