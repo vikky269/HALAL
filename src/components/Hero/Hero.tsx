@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
    }
   ]
   return (
-    <section className="bg-[#ECF3FD] font-title relative py-8 md:pb-16 max-md:h-[100rem]">
+    <section className="bg-[#ECF3FD] font-title relative py-12 md:pb-16">
 
       <div className="hidden md:block">
 
@@ -217,7 +217,7 @@ const Hero: React.FC = () => {
           ))}
         </div> */}
 
-        <div className='scroll-container overflow-x-scroll lg:overflow-hidden flex spcace-x-12 items-center mt-12 cursor-pointer hover:scale-[1.02]'>
+        <div className='scroll-container overflow-x-scroll w-full flex justify-start px-8 gap-10 items-center  mt-12 cursor-pointer'>
             <img src="/hero/img1.png" alt="" className='lg:w-92' />
             <img src="/hero/img2.png" alt="" className='lg:w-92' />
             <img src="/hero/img3.png" alt="" className='lg:w-92' />
