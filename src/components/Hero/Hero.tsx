@@ -1,5 +1,8 @@
 import React from "react";
-
+//import { motion } from "motion/react";
+import AnimatedNames from "../Animatename/AnimateName";
+import Animatedesc from "../Animatename/Animatedesc";
+import AnimatedImage from "../Animatename/AnimateImage";
 const Hero: React.FC = () => {
 
   const stats = ['1M Trusted Customers', '1Billion Transactions', '10Billion USD Revenues', '2M SMEs supported', '50k Corporate']
@@ -35,15 +38,43 @@ const Hero: React.FC = () => {
             <h1 className="text-5xl font-bold text-[#0066f4] text-center rounded-sm py-4 px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
               A BANK FOR
             </h1>
-            <h1 className="text-6xl font-bold text-center rounded-sm text-white py-3 px-12 mb-6 bg-gradient-to-b from-[#0357ee] to-[#023288]">
-              AKINTAYO
-            </h1>
-            <p className="text-[#444449] mt-4 text-sm font-normal px-3 py-4 border-[0.2px] max-w-sm italic leading-4 border-black border-opacity-5">
+
+            {/* <motion.h1
+              initial="initial"
+              whileHover="hovered"
+              className="text-6xl relative font-bold text-center flex items-center justify-center rounded-sm text-white w-full py-3 px-12 h-auto min-h-[80px] mb-6 bg-gradient-to-b from-[#0357ee] to-[#023288]"
+            >
+
+              <motion.span
+                className="absolute"
+                variants={{
+                  initial: { y: 0, opacity: 1 },
+                  hovered: { y: "-100%", opacity: 0 },
+                }}
+                transition={{ duration: 0.5 }}
+              >
+                AKINTAYO
+              </motion.span>
+
+              <motion.span
+                className="absolute"
+                variants={{
+                  initial: { y: "100%", opacity: 0 },
+                  hovered: { y: 0, opacity: 1 },
+                }}
+                transition={{ duration: 0.5 }}
+              >
+                AKINOLUWA
+              </motion.span>
+            </motion.h1> */}
+
+            <AnimatedNames />
+            {/* <p className="text-[#444449] mt-4 text-sm font-normal px-3 py-4 border-[0.2px] max-w-sm italic leading-4 border-black border-opacity-5">
               Akintayo, a 28-year-old Software Engineer, makes payments through
               HALAL.
-            </p>
+            </p> */}
 
-
+             <Animatedesc />
             {/* CTA Buttons */}
             <div className="flex justify-center space-x-4 mt-8">
               <a href="#">
@@ -58,14 +89,16 @@ const Hero: React.FC = () => {
           </div>
 
           {/* User and App Buttons */}
-          <div className="">
+          
+          {/* <div className="">
             <img
               src="/hero/akin.png"
               alt="User"
               className="h-[63%] md:h-[63%] lg:max-h-[850px] object-contain"
             />
-          </div>
-
+          </div> */}
+         
+         <AnimatedImage />
 
         </div>
 
