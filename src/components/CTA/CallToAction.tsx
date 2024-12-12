@@ -2,7 +2,7 @@ import React from "react";
 
 const CallToAction: React.FC = () => {
   return (
-    <div className="relative bg-gradient-to-b from-[#0066f4] to-[#003b8e] text-white py-8 px-4 font-title">
+    <div className="relative bg-gradient-to-b from-[#0066f4] to-[#003b8e] text-white py-10 px-4 font-title">
 
         <img src="/Upper Shape.png" alt="" className="absolute right-0 top-0 h-[100%] w-[40%] object-cover" />
       <div className="container mx-auto text-center">
@@ -12,7 +12,7 @@ const CallToAction: React.FC = () => {
         </button>
 
         {/* Subtitle */}
-        <p className="md:text-[40px] text-xl font-medium mb-6">
+        <p className="md:text-[40px] text-xl mt-4 font-medium mb-6">
           Pay, Receive, Spend, Send Money the Halal way
         </p>
 

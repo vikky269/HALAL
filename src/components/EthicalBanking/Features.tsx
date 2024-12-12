@@ -40,7 +40,7 @@ const FeaturesSection: React.FC = () => {
             >
             <img src={feature.icon} alt="" />
                   <div className="max-w-[12rem]">
-                      <h3 className="text-lg font-normal text-black">
+                      <h3 className="text-lg font-normal text-black px-12 lg:px-0">
                           {feature.title}
                       </h3>
                   </div>
