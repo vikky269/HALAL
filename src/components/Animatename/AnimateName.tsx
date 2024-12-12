@@ -21,7 +21,7 @@ const AnimatedNames = () => {
 
   return (
     <motion.h1
-      className="text-6xl relative font-bold text-center rounded-sm text-white w-full py-3 px-12 h-auto min-h-[80px] mb-6 bg-gradient-to-b from-[#0357ee] to-[#023288] flex items-center justify-center"
+      className=" text-3xl lg:text-6xl relative font-bold text-center rounded-sm text-white w-full py-2 lg:py-3 px-12 h-auto min-h-[80px] mb-6 bg-gradient-to-b from-[#0357ee] to-[#023288] flex items-center justify-center"
     >
       <AnimatePresence mode="wait">
         <motion.span
