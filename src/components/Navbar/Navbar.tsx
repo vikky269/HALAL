@@ -9,7 +9,7 @@ const togglenav = () => {
 }
 
   return (
-    <nav className="bg-white shadow-md font-title">
+    <nav className="bg-white shadow-md font-title relative">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 lg:py-2">
         <div className="flex justify-between items-center h-16">
           {/* Logo */}
@@ -79,23 +79,23 @@ const togglenav = () => {
       {/* Mobile Navigation */}
       <div className="md:hidden">
         {isopen && (
-             <div className="space-y-2 px-4 pb-4">
-             <a href="#" className="block text-gray-600 hover:text-blue-500">
+             <div className="space-y-2 px-4 py-4 bg-slate-950 absolute  w-full top-30 z-50">
+             <a href="#" className="block text-gray-100 hover:text-blue-500">
                Personal
              </a>
-             <a href="#" className="block text-gray-600 hover:text-blue-500">
+             <a href="#" className="block text-gray-100 hover:text-blue-500">
                Business
              </a>
-             <a href="#" className="block text-gray-600 hover:text-blue-500">
+             <a href="#" className="block text-gray-100 hover:text-blue-500">
                Products
              </a>
-             <a href="#" className="block text-gray-600 hover:text-blue-500">
+             <a href="#" className="block text-gray-100 hover:text-blue-500">
                Why Halal?
              </a>
-             <a href="#" className="block text-gray-600 hover:text-blue-500">
+             <a href="#" className="block text-gray-100 hover:text-blue-500">
                Blog
              </a>
-             <a href="#" className="block text-gray-600 hover:text-blue-500">
+             <a href="#" className="block text-gray-100 hover:text-blue-500">
                Community
              </a>
              <a
