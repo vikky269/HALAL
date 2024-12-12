@@ -217,7 +217,7 @@ const Hero: React.FC = () => {
           ))}
         </div> */}
 
-        <div className='scroll-container overflow-x-scroll lg:overflow-hidden flex spcace-x-12 items-center mt-12 px-6 cursor-pointer hover:scale-[1.02]'>
+        <div className='scroll-container overflow-x-scroll lg:overflow-hidden flex spcace-x-12 items-center mt-12 cursor-pointer hover:scale-[1.02]'>
             <img src="/hero/img1.png" alt="" className='lg:w-92' />
             <img src="/hero/img2.png" alt="" className='lg:w-92' />
             <img src="/hero/img3.png" alt="" className='lg:w-92' />
