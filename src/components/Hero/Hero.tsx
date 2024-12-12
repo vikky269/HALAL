@@ -35,7 +35,7 @@ const Hero: React.FC = () => {
         <div className="flex justify-between items-center mx-auto px-6 py-3">
 
           <div className="text-center flex flex-col items-start mb-8 px-6 py-6 lg:max-h-[800px]">
-            <h1 className="text-6xl font-bold text-[#0066f4] text-center rounded-sm py-4 px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
+            <h1 className="text-6xl font-bold text-[#0066f4] whitespace-nowrap text-center w-full rounded-sm py-3 px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
               A BANK FOR
             </h1>
 
