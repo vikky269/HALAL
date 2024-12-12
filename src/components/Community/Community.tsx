@@ -12,7 +12,7 @@ const Community:React.FC = () => {
 
        <div className='text-center'>
          <span className="leading-7 text-md text-[#394455] max-w-lg font-normal mt-12">Join a vast network of individuals who are making force for ethical 
-         <br></br> banking and enjoying the benefits of Halal community.</span>
+          banking and enjoying the benefits of Halal community.</span>
        </div>
 
 
