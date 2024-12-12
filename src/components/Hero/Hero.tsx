@@ -26,7 +26,7 @@ const Hero: React.FC = () => {
    }
   ]
   return (
-    <section className="bg-[#ECF3FD] font-title relative py-8 md:pb-16 ">
+    <section className="bg-[#ECF3FD] font-title relative py-8 md:pb-16 max-md:h-[100rem]">
 
       <div className="hidden md:block">
 
@@ -169,7 +169,7 @@ const Hero: React.FC = () => {
         </div>
 
       
-        {/* <div className="bg-[#0066f4] w-full h-[65px] absolute top-[48%] lg:top-[45%] overflow-hidden">
+        <div className="bg-[#0066f4] w-full h-[65px] absolute top-[48%] lg:top-[45%] overflow-hidden">
           <div className="flex items-center h-full">
             <div className="flex whitespace-nowrap animate-marquee text-white space-x-4 lg:space-x-12">
               {stats.map((stat, index) => (
@@ -191,7 +191,7 @@ const Hero: React.FC = () => {
               ))}
             </div>
           </div>
-        </div> */}
+        </div>
 
 
         {/** hero subtext content */}
@@ -217,7 +217,7 @@ const Hero: React.FC = () => {
           ))}
         </div> */}
 
-        <div className='scroll-container overflow-x-scroll lg:overflow-hidden flex space-x-12 items-center mt-12 px-8 cursor-pointer hover:scale-[1.02]'>
+        <div className='scroll-container overflow-x-scroll lg:overflow-hidden flex spcace-x-12 items-center mt-12 px-6 cursor-pointer hover:scale-[1.02]'>
             <img src="/hero/img1.png" alt="" className='lg:w-92' />
             <img src="/hero/img2.png" alt="" className='lg:w-92' />
             <img src="/hero/img3.png" alt="" className='lg:w-92' />
