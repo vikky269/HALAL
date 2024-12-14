@@ -6,7 +6,7 @@ const Community:React.FC = () => {
     <section className='bg-gradient-to-b from-[#EFF4FF] to-[#FFFFFF] font-title flex flex-col justify-center items-center pt-6'>
       
        <div className="text-center mt-5 flex-wrap mb-12">
-          <span className="text-[#003780] text-xl lg:text-5xl leading-normal max-w-lg font-bold">With a growing community of <br></br>
+          <span className="text-[#003780] text-2xl md:text-4xl lg:text-5xl leading-normal max-w-lg font-bold">With a growing community of <br></br>
           people just like you </span>  
        </div>
 
@@ -16,7 +16,7 @@ const Community:React.FC = () => {
        </div>
 
 
-       <div className='scroll-container lg:border lg:border-black lg:border-opacity-5 mt-16 lg:overflow-hidden w-[80%] flex overflow-x-scroll lg:flex-row justify-start lg:justify-center items-center gap-4 py-10 px-6 rounded-xl cursor-pointer'>
+       <div className='scroll-container lg:border lg:border-black lg:border-opacity-5 mt-16 lg:overflow-hidden max-md:w-[80%] flex overflow-x-scroll lg:flex-row justify-start lg:justify-center items-center gap-4 py-10 px-8 rounded-xl cursor-pointer'>
          <span className='text-white bg-[#0066F4] font-semibold px-10 py-4 rounded-full'>Agents</span>
          
           {community.map((community,index)=> (

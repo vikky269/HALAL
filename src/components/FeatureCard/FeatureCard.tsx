@@ -6,13 +6,18 @@ interface CardProps {
   link: string;
   imageSrc?: string;
   bgColor: string;
+  bgOpacity: string;
   textColor: string;
 }
 
-const FeatureCard: React.FC<CardProps> = ({ title, description, link, imageSrc, bgColor, textColor }) => {
+const FeatureCard: React.FC<CardProps> = ({ title, description, link, imageSrc, bgColor, bgOpacity, textColor }) => {
   return (
     <div
-      className={`font-title lg:h-[500px] relative  p-4 lg:p-8 rounded-lg shadow-md bg-gradient-to-br ${bgColor} flex flex-col justify-between items-center md:items-start gap-3`}
+      className={`font-title ${imageSrc ? "md:h-[390px]" : "md:h-[300px]"} lg:h-[500px] relative  p-4 lg:p-8 rounded-lg shadow-md flex flex-col justify-between items-center md:items-start gap-3`}
+      style={{
+        backgroundColor: bgColor,
+        opacity: bgOpacity, 
+      }}
     >
       <div className="space-y-4 lg:max-w-[72%]">
         <h3 className={`text-2xl md:text-3xl font-bold ${textColor}`}>{title}</h3>
@@ -21,8 +26,8 @@ const FeatureCard: React.FC<CardProps> = ({ title, description, link, imageSrc, 
           <span className='border-b-[#0066f4] py-2 px-2 border-2 border-t-0 border-l-0 border-r-0'>Learn more &rarr; </span>
         </a>
       </div>
-      <div className="absolute bottom-0 right-4 hidden lg:block">
-        <img src={imageSrc}  />
+      <div className="absolute bottom-0 right-4 hidden md:block lg:block">
+        <img src={imageSrc} className='md:h-40 lg:h-full'  />
       </div>
     </div>
   )
@@ -36,7 +41,8 @@ const FeaturesGrid: React.FC = () => {
         'We believe everyone should have access to money at the time they want it without exorbitant interest rates that makes it hard to return',
       link: '#',
       imageSrc: '/banking.png',
-      bgColor: 'from-blue-100 to-blue-50',
+      bgColor: '#DEECFF94',
+      bgOpacity: "60",
       textColor: 'text-blue-600',
     },
     {
@@ -45,7 +51,8 @@ const FeaturesGrid: React.FC = () => {
         'We believe everyone should have access to money at the time they want it without exorbitant interest rates that makes it hard to return',
       link: '#',
       imageSrc: '/savings.png',
-      bgColor: 'from-green-100 to-green-50',
+      bgColor: '#F2FCFEAB',
+      bgOpacity: "65",
       textColor: 'text-green-600',
     },
     {
@@ -53,7 +60,8 @@ const FeaturesGrid: React.FC = () => {
       description:
         'We believe everyone should have access to money at the time they want it without exorbitant interest rates that makes it hard to return',
       link: '#',
-      bgColor: 'from-green-100 to-green-50',
+      bgColor: '#F2FCFEAB',
+      bgOpacity:"65",
       textColor: 'text-green-600',
     },
     {
@@ -61,7 +69,8 @@ const FeaturesGrid: React.FC = () => {
       description:
         'We believe everyone should have access to money at the time they want it without exorbitant interest rates that makes it hard to return',
       link: '#',
-      bgColor: 'from-blue-100 to-blue-50',
+      bgColor: '#DEECFF94',
+      bgOpacity: "60",
       textColor: 'text-blue-600',
     },
   ];

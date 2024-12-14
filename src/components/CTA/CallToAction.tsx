@@ -12,7 +12,7 @@ const CallToAction: React.FC = () => {
         </button>
 
         {/* Subtitle */}
-        <p className="md:text-[40px] text-xl mt-4 font-medium mb-6">
+        <p className="md:text-[40px] text-xl mt-4 leading-snug font-medium mb-6">
           Pay, Receive, Spend, Send Money the Halal way
         </p>
 

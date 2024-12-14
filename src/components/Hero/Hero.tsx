@@ -28,7 +28,7 @@ const Hero: React.FC = () => {
   return (
     <section className="bg-[#ECF3FD] font-title relative py-12 md:pb-16">
 
-      <div className="hidden md:block">
+      <div className="hidden lg:block">
 
         {/** Desktop layout */}
 
@@ -80,7 +80,7 @@ const Hero: React.FC = () => {
         {/** divider stats */}  
         
 
-        <div className="bg-[#0066f4] w-full h-[75px] absolute lg:top-[45%] overflow-hidden">
+        <div className="bg-[#0066f4] w-full h-[75px]">
           <div className="flex items-center h-full">
             <div className="flex whitespace-nowrap animate-marquee text-white space-x-4 lg:space-x-12">
               {stats.map((stat, index) => (
@@ -106,7 +106,7 @@ const Hero: React.FC = () => {
 
         {/** hero subtext content */}
 
-        <div className="text-center flex flex-col items-center justify-center mt-5">
+        <div className="text-center flex flex-col items-center justify-center md:mt-12 mt-5">
           <span className="text-[#003780] text-6xl font-bold">For Everyone And You</span>
 
           <span className="leading-5 text-sm text-[#394455] max-w-lg font-normal mt-6">“No matter who you are, your personality or status, your profession,
@@ -118,7 +118,7 @@ const Hero: React.FC = () => {
 
         {/** picture grid */}
 
-        <div className="flex items-center justify-center space-x-4 mt-5 cursor-pointer lg:px-6">
+        <div className="flex items-center justify-center overflow-x-scroll space-x-4 mt-5 cursor-pointer lg:px-6">
           {heroimg.map((heroimg, index) => (
             <div className="flex flex-row justify-center items-center">
               <img src={heroimg.url} alt="" key={index} className="w-[100%] h-[400px]" />
@@ -132,12 +132,12 @@ const Hero: React.FC = () => {
 
        {/**mobile layout */}
        
-      <div className="block md:hidden">
+      <div className="block lg:hidden">
 
-        <div className="flex flex-col justify-center items-center mx-auto px-6 py-3">
+        <div className="flex flex-col-reverse justify-center items-center mx-auto px-6 py-3">
 
-          <div className="text-center flex flex-col items-center mb-8 px-6 py-6">
-            <h1 className="text-3xl font-bold whitespace-nowrap text-[#0066f4] text-center w-full rounded-sm py-3 px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
+          <div className="text-center flex flex-col items-center mb-8 px-4 py-6 border-2 border-black w-[80%]">
+            <h1 className="text-xl md:text-3xl font-bold whitespace-nowrap text-[#0066f4] text-center  w-full rounded-sm py-3 md:px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
               A BANK FOR
             </h1>
 
@@ -169,7 +169,7 @@ const Hero: React.FC = () => {
         </div>
 
       
-        <div className="bg-[#0066f4] w-full h-[65px] absolute top-[48%] lg:top-[45%] overflow-hidden">
+        <div className="bg-[#0066f4] w-full h-[65px] overflow-hidden">
           <div className="flex items-center h-full">
             <div className="flex whitespace-nowrap animate-marquee text-white space-x-4 lg:space-x-12">
               {stats.map((stat, index) => (
@@ -196,7 +196,7 @@ const Hero: React.FC = () => {
 
         {/** hero subtext content */}
 
-        <div className="text-center flex flex-col items-center justify-center mt-5">
+        <div className="text-center flex flex-col items-center justify-center mt-12">
           <span className="text-[#003780] text-3xl font-bold">For Everyone And You</span>
 
           <span className="leading-5 px-4 text-sm text-[#394455] max-w-lg font-normal mt-6">“No matter who you are, your personality or status, your profession,
@@ -209,13 +209,7 @@ const Hero: React.FC = () => {
 
         {/**picture grid */}
 
-        {/* <div className="mt-5 cursor-pointer  overflow-x-scroll flex">
-          {heroimg.map((heroimg, index) => (
-            <div className="flex">
-              <img src={heroimg.url} alt="" key={index} className="w-[335rem] h-96" />
-            </div>
-          ))}
-        </div> */}
+        
 
         <div className='scroll-container overflow-x-scroll w-full flex justify-start px-8 gap-10 items-center  mt-12 cursor-pointer'>
             <img src="/hero/img1.png" alt="" className='lg:w-92' />

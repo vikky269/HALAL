@@ -18,7 +18,7 @@ const togglenav = () => {
           </div>
 
           {/* Navigation Links */}
-          <div className="hidden md:flex space-x-8">
+          <div className="hidden lg:flex space-x-8">
             <a href="#" className="text-gray-600 hover:text-[#0066F4]">
               Personal
             </a>

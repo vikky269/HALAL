@@ -98,7 +98,7 @@ const Footer: React.FC = () => {
       </div>
 
 
-      <div className="text-center mt-12"><span className="font-normal">© 2021 withhalal.com. All rights reserved. </span></div>
+      <div className="text-center mt-12 px-4"><span className="font-normal">© 2021 withhalal.com. All rights reserved. </span></div>
     </footer>
   )
 }

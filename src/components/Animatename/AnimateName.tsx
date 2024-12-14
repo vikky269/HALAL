@@ -2,16 +2,16 @@ import {useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
 
 const AnimatedNames = () => {
-  const names = ['AKINTAYO', 'IBRAHIM', 'CHINYERE', 'CHINEDU', 'EVERYONE']; // Add extra names
-  const [currentIndex, setCurrentIndex] = useState(0);
+  const names = ['AKINTAYO', 'IBRAHIM', 'CHINYERE', 'CHINEDU', 'EVERYONE']
+  const [currentIndex, setCurrentIndex] = useState(0)
 
   useEffect(() => {
     const interval = setInterval(() => {
-      setCurrentIndex((prevIndex) => (prevIndex + 1) % names.length);
-    }, 5000); // Change name every 5 seconds
+      setCurrentIndex((prevIndex) => (prevIndex + 1) % names.length)
+    }, 5000)
 
     return () => clearInterval(interval); // Cleanup on component unmount
-  }, [names.length]);
+  }, [names.length])
 
   const nameVariants = {
     enter: { y: "100%", opacity: 0 },
@@ -21,7 +21,7 @@ const AnimatedNames = () => {
 
   return (
     <motion.h1
-      className=" text-3xl lg:text-6xl relative font-bold text-center rounded-sm text-white w-full py-2 lg:py-3 px-12 h-auto min-h-[80px] mb-6 bg-gradient-to-b from-[#0357ee] to-[#023288] flex items-center justify-center"
+      className="text-xl md:text-3xl lg:text-6xl relative font-bold text-center rounded-sm text-white w-full py-2 lg:py-3 px-12 h-auto md:min-h-[80px] min-h-[60px] mb-6 bg-gradient-to-b from-[#0357ee] to-[#023288] flex items-center justify-center"
     >
       <AnimatePresence mode="wait">
         <motion.span

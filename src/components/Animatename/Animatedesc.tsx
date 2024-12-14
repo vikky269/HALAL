@@ -28,7 +28,7 @@ const AnimatedDesc = () => {
 
   return (
     <motion.h3
-     className="relative text-center text-lg font-medium rounded-sm text-[#444449] w-full py-3 h-auto min-h-[80px] mb-6 border-[0.2px] italic leading-4 border-black border-opacity-5 flex items-center justify-center"
+     className="relative text-center text-xs md:text-lg font-medium rounded-sm text-[#444449] w-full py-3 px-2 h-auto min-h-[80px] mb-6 border-[0.2px] italic leading-4 border-black border-opacity-5 flex items-center justify-center"
     >
       <AnimatePresence mode="wait">
         <motion.span
