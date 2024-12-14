@@ -136,7 +136,7 @@ const Hero: React.FC = () => {
 
         <div className="flex flex-col-reverse justify-center items-center mx-auto px-6 py-3">
 
-          <div className="text-center flex flex-col items-center mb-8 px-4 py-6 border-2 border-black w-[80%]">
+          <div className="text-center flex flex-col items-center mb-8 px-4 py-6  w-[80%]">
             <h1 className="text-xl md:text-3xl font-bold whitespace-nowrap text-[#0066f4] text-center  w-full rounded-sm py-3 md:px-12 mb-6 bg-gradient-to-b from-[#ffffff] to-[#dfe8f6]">
               A BANK FOR
             </h1>
