@@ -67,7 +67,7 @@ const FeaturesSection: React.FC = () => {
 
       <div className="hidden lg:block">
         
-        <div className="w-screen mx-auto p-6 flex flex-col gap-4">
+        <div className="w-screen mx-auto p-10 flex flex-col gap-4">
 
           <div className="grid gap-6 grid-cols-3">
             {features1.map((feature, index) => (
